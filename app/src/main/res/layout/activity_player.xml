@@ -95,5 +95,36 @@
                 android:focusable="true"
                 android:text="Modo: Estirado 16:9" />
         </LinearLayout>
+
+        <!-- Fila de ajustes de subtítulos (todo operable con D-Pad) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSubSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:text="Tamaño sub: 100%" />
+
+            <Button
+                android:id="@+id/btnSubBg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:focusable="true"
+                android:text="Fondo sub: 0%" />
+
+            <Button
+                android:id="@+id/btnReloadSubs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:focusable="true"
+                android:text="Recargar subtítulos" />
+        </LinearLayout>
     </LinearLayout>
 </FrameLayout>
